@@ -4,13 +4,7 @@
 self.url:
 </div>
 <div class="folk_solid" style="font-size: 110px;">
-http://meetjs.heroku.com
-</div>
-<div class="folk_outline" style="font-size: 70px; margin-bottom: 40px">
-code:
-</div>
-<div class="folk_solid" style="font-size: 50px;">
-https://github.com/tjeden/sharing-code-in-nodejs-demo
+http://delete_your_code.heroku.com
 </div>
 
 
