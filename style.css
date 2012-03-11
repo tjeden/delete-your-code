@@ -1,0 +1,142 @@
+@import url(http://fonts.googleapis.com/css?family=Poly);
+@font-face { font-family:'Folk Solid'; src:url('Folksolid.ttf') }
+@font-face { font-family:'Folk Outline'; src:url('Folkoutline.ttf') }
+@font-face { font-family:'Folk Shadow'; src:url('Folkshadow.ttf') }
+@font-face { font-family:'Folk Sketches'; src:url('Folksketches.ttf') }
+
+body {font-family: 'Poly', serif;}
+
+/* Main settings */
+
+#preso, .slide {
+  background: #fff;
+}
+
+.slide .center {
+  width: 1024px;
+  height: 768px;
+}
+
+.slide .center p {
+  margin: 0px !important;
+  text-align: left;
+}
+
+.slide .black {
+  background: black;
+}
+
+h1,h2,h3 { font-weight: normal; text-align: center; margin: 0.5em 0; }
+
+
+.reversed {
+  color: white;
+  background-color: black;
+}
+
+.white {
+  color: white;
+}
+
+.folk_solid {
+  font-family: 'Folk Solid'; 
+}
+
+.folk_shadow{
+  font-family: 'Folk Shadow'; 
+}
+
+.folk_outline{
+  font-family: 'Folk Outline'; 
+}
+
+.folk_sketches{
+  font-family: 'Folk Sketches'; 
+}
+.title h1{
+  font-family: 'Folk Shadow'; font-size: 180px; line-height: 60px;
+}
+.title h2{
+  font-family: 'Folk Solid'; font-size: 100px;
+}
+.title h3{
+  font-family: 'Folk Shadow'; font-size: 180px; line-height: 60px;
+}
+/* Image settings */
+.img {
+  height: 1024px;
+  background-position: center;
+  margin-top: -30px !important;
+  background-repeat: no-repeat;
+}
+
+/* Left */
+
+.img_left h1 {
+  margin-left: 40px;
+  padding: 25px;
+}
+.img_left h1, .img_left li{
+  background-color: white;
+  zoom: 1;
+  filter: alpha(opacity=75);
+  opacity: 0.75;
+  width: 700px;
+}
+
+/* Right */
+
+.img_right h1 {
+  margin-left: 1040px;
+  padding: 25px;
+}
+
+.img_right ul {
+  margin-left: 1000px;
+}
+
+.img_right h1, .img_right li{
+  background-color: white;
+  zoom: 1;
+  filter: alpha(opacity=75);
+  opacity: 0.75;
+  width: 700px;
+}
+
+/* Center */
+
+.img_center h1 {
+  padding: 25px;
+  width: 700px;
+}
+.img_center ul{
+  width: 750px;
+}
+.img_center h1, .img_center ul{
+  margin-left: auto;
+  margin-right: auto;
+}
+.img_center ul li{
+  margin-left: 0px;
+}
+.img_center h1, .img_center li{
+  background-color: white;
+  zoom: 1;
+  filter: alpha(opacity=75);
+  opacity: 0.75;
+  width: 700px;
+}
+
+/* Images */
+
+.ruby {
+  background-image: url('me/ruby.jpg');
+}
+
+.materials p{
+  padding-left: 60px;
+}
+
+#footer {
+  display: none;
+}

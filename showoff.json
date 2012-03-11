@@ -1,0 +1,8 @@
+{ "name": "Delete your code", 
+  "sections": [ 
+    {"section": "title"},
+    {"section": "me"},
+    {"section": "slides"},
+    {"section": "outro"}
+  ]
+}
