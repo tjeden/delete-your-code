@@ -150,6 +150,14 @@ code
     # if i ever see this again i'm going to 
     # start bringing guns to work
 
+!SLIDE code
+    @@@ Ruby 
+    # drunk, fix later
+
+!SLIDE code
+    @@@ Ruby 
+    # Magic. Do not touch.
+
 !SLIDE center
 
 <div class="folk_outline" style="font-size: 160px;">You do use GIT,</div>
