@@ -4,7 +4,7 @@
 self.url:
 </div>
 <div class="folk_solid" style="font-size: 110px;">
-http://delete_your_code.heroku.com
+http://delete-your-code.heroku.com
 </div>
 
 
