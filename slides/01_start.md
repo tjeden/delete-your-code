@@ -16,6 +16,12 @@ your
 code
 </div>
 
+!SLIDE title
+
+# Delete #
+# your #
+# code#
+
 !SLIDE center 
 
 <div class="folk_shadow" style="font-size: 120px; margin: 50px">
