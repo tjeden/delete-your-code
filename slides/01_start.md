@@ -144,6 +144,14 @@ code
     # This is shitcrafting
 
 !SLIDE code
+    @@@ Ruby
+    # @TODO: Rewrite this, it sucks. Seriously.
+
+!SLIDE
+    @@@ Ruby
+    # TODO: Remove this comment.
+
+!SLIDE code
     @@@ Ruby 
     # Here be dragons...
 
@@ -176,6 +184,11 @@ code
 !SLIDE title
 
 ## Delete your code  ##
+
+!SLIDE center
+
+<div class="folk_shadow" style="font-size: 120px;">One more thing...<div>
+
 !SLIDE code big
     
 
