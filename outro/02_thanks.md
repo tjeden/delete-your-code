@@ -16,6 +16,6 @@ http://delete-your-code.heroku.com
   <span style="color: black;">!</span>
 </div>
 
-<div class="folk_shadow" style="font-size: 80px; margin: 50px">
+<div class="folk_shadow" style="font-size: 150px; margin: 50px">
 @_tjeden
 </div>
