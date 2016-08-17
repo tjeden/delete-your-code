@@ -1,50 +1,77 @@
-GEM
-  remote: http://rubygems.org/
+GIT
+  remote: https://github.com/puppetlabs/showoff.git
+  revision: 72418e347637e3a94b3dd64cc3563315ccd1ead1
   specs:
-    addressable (2.2.6)
-    blankslate (2.1.2.4)
-    bluecloth (2.1.0)
-    gli (1.3.5)
+    showoff (0.13.4)
+      gli (>= 1.3.2)
+      htmlentities
+      json
+      nokogiri
+      parslet
+      redcarpet
+      sinatra (~> 1.3)
+      sinatra-websocket
+      thin (~> 1.3)
+      tilt (>= 2.0.3)
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    addressable (2.2.8)
+    blankslate (3.1.3)
+    daemons (1.2.4)
+    em-websocket (0.3.8)
+      addressable (>= 2.1.1)
+      eventmachine (>= 0.12.9)
+    eventmachine (1.2.0.1)
+    gli (2.14.0)
     heroku (2.11.0)
       launchy (>= 0.3.2)
       rest-client (~> 1.6.1)
       rubyzip
       term-ansicolor (~> 1.0.5)
-    json (1.6.1)
+    htmlentities (4.3.4)
+    json (2.0.2)
     launchy (2.0.5)
       addressable (~> 2.2.6)
     mime-types (1.17.2)
-    nokogiri (1.5.0)
-    parslet (1.2.3)
-      blankslate (~> 2.0)
+    mini_portile2 (2.1.0)
+    nokogiri (1.6.8)
+      mini_portile2 (~> 2.1.0)
+      pkg-config (~> 1.1.7)
+    parslet (1.7.1)
+      blankslate (>= 2.0, <= 4.0)
     pdfkit (0.5.2)
-    rack (1.3.5)
-    rack-protection (1.1.4)
+    pkg-config (1.1.7)
+    rack (1.6.4)
+    rack-protection (1.5.3)
       rack
+    redcarpet (3.3.4)
     rest-client (1.6.7)
       mime-types (>= 1.16)
     rubyzip (0.9.4)
-    showoff (0.7.0)
-      bluecloth
-      gli (>= 1.3.2)
-      json
-      nokogiri
-      parslet
-      sinatra
-    sinatra (1.3.1)
-      rack (~> 1.3, >= 1.3.4)
-      rack-protection (~> 1.1, >= 1.1.2)
-      tilt (~> 1.3, >= 1.3.3)
+    sinatra (1.4.7)
+      rack (~> 1.5)
+      rack-protection (~> 1.4)
+      tilt (>= 1.3, < 3)
+    sinatra-websocket (0.3.1)
+      em-websocket (~> 0.3.6)
+      eventmachine
+      thin (>= 1.3.1, < 2.0.0)
     term-ansicolor (1.0.7)
-    tilt (1.3.3)
+    thin (1.7.0)
+      daemons (~> 1.0, >= 1.0.9)
+      eventmachine (~> 1.0, >= 1.0.4)
+      rack (>= 1, < 3)
+    tilt (2.0.5)
 
 PLATFORMS
   ruby
 
 DEPENDENCIES
-  bluecloth
-  gli
   heroku
-  nokogiri
   pdfkit
-  showoff
+  showoff!
+
+BUNDLED WITH
+   1.11.2

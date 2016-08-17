@@ -1,7 +1,7 @@
-source :rubygems
-gem 'bluecloth'
-gem 'nokogiri'
-gem 'showoff'
-gem 'gli'
+source 'https://rubygems.org'
+#gem 'bluecloth'
+#gem 'nokogiri'
+gem 'showoff', :git => 'https://github.com/puppetlabs/showoff.git'
+#gem 'gli'
 gem 'heroku'
 gem 'pdfkit'

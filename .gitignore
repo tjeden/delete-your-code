@@ -4,3 +4,4 @@
 *.xcf
 *.swp
 .DS_Store
+stats/
